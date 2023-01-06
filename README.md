@@ -1,5 +1,5 @@
-## Navbar
-#  Admin DashBoard
+# Navbar
+##  Admin DashBoard
 I am tryig to build an admin dashboard looking like the link bellow.
 
 This is just Navbar, It's not the best but will improve upon it when I add the side menu.
