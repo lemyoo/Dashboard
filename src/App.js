@@ -1,8 +1,8 @@
-import NavBar from './components/NavBar';
-
+import Entry from './Entry';
+import "./App.css"
 function App() {
   return (
-    <NavBar />
+    <Entry />
   );
 }
 
