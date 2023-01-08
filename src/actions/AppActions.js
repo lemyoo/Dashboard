@@ -1,5 +1,6 @@
 import {
-    SHOW_SIDE_MENU
+    SHOW_SIDE_MENU,
+    MODE
 } from '../types/AppTypes';
 
 export const showSideMenuAction = (data) => {
@@ -10,3 +11,13 @@ export const showSideMenuAction = (data) => {
         },
     };
 };
+
+export const changeModeAction = (data) => {
+    return {
+        type: MODE,
+        payload: {
+            data: data,
+        },
+    };
+};
+

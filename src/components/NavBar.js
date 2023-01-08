@@ -45,13 +45,13 @@ const NavBar = () => {
             <Grid item xs={3} md={1}>
                 <ItemMenu>
                     <IconButton onClick={clickShowSideMenuAction}>
-                        <MenuIcon fontSize='medium' />
+                        <MenuIcon />
                     </IconButton>
                 </ItemMenu>
             </Grid>
             <Grid item display={{ xs: 'none', md: 'block' }} md={2}>
                 <ItemLeft>
-                    <Typography fontWeight="bold" fontSize={26.5} >DZORKA</Typography>
+                    <Typography fontWeight="bold" fontSize={26.5} color="primary">DZORKA</Typography>
                 </ItemLeft>
             </Grid>
             <Grid item xs={9} md={9} >
