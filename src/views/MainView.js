@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
 import SideNavigation from '../components/SideNavigation'
+//import DashBoard from '../components/DashBoard'
 
 
 const MainView = () => {
@@ -8,8 +9,17 @@ const MainView = () => {
     return (
         <div>
             < NavBar />
-            < SideNavigation />
-        </div>
+            <div style={{ margin: "1px 0px 0px 0px" }}>
+                <div style={{
+                    float: "left"
+                }}>
+                    < SideNavigation />
+                </div>
+                {/*<div style={{ float: "rigt" }}>
+                    <DashBoard />
+            </div>*/}
+            </div>
+        </div >
 
     )
 }

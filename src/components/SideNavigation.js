@@ -64,10 +64,18 @@ const SideNavigation = () => {
     }
 
     return (
-        <span style={{ display: show_side_menu ? "block" : "none" }}>
+        <span id="sideNavigationMenus"
+            style={{
+                display: show_side_menu ? "block" : "none",
+                position: "sticky",
+                height: "95vh",
+                overflowY: "scroll",
+                overflowX: "hidden"
+
+            }}>
             <div style={{ width: 300 }}>
                 <List
-                    sx={{ width: '100%', maxWidth: 300, bgcolor: 'background.paper', marginTop: 1 }}
+                    sx={{ width: '100%', maxWidth: 300, bgcolor: 'background.paper' }}
                     component="nav"
                     aria-labelledby="nested-list-subheader"
                     subheader={
