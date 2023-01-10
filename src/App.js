@@ -1,8 +1,13 @@
-import NavBar from './components/NavBar';
+import Entry from './Entry';
+import "./App.css"
+import { Provider } from 'react-redux';
+import store from "./store"
 
 function App() {
   return (
-    <NavBar />
+    <Provider store={store}>
+      <Entry />
+    </Provider>
   );
 }
 
